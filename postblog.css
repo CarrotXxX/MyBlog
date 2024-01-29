@@ -1,0 +1,181 @@
+body {
+    background: #e7d8e8;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 320px;
+    line-height: 40px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.top {
+    width: 100%;
+    height: 40px;
+    background: #f9e7e0;
+    position: absolute;
+    top: 320px;
+}
+
+#toolbar {
+    width: 500px;
+    position: absolute;
+    top: 315px;
+}
+
+.center img {
+    padding: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+}
+
+.center {
+    position: absolute;
+    top: 224px;
+}
+
+.w {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: -25px;
+    left: 140px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: cursive;
+}
+
+#main {
+    width: 1000px;
+    margin: 0 auto;
+    bottom: 20px;
+}
+
+#toolbar-list {
+    margin-left: 350px;
+    position: absolute;
+    left: -220px;
+    top: -5px;
+    font-size: 19px;
+    word-spacing: 30px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#toolbar-list li {
+    display: inline-block;
+}
+
+#toolbar-list strong {
+    color: rgb(211, 143, 237);
+    border-bottom:  rgb(163, 226, 232) 4px solid;
+    padding-bottom: 4px;
+}
+
+
+#bread {
+    padding: 3px;
+    position: absolute;
+    top: 325px;
+    right: 110px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #000000;
+}
+
+
+#toolbar-list a:hover {
+    color: rgb(211, 143, 237);
+    border-bottom: rgb(163, 226, 232) 4px solid;
+    padding-bottom: 4px;
+}
+
+strong {
+    font-weight: normal;
+    color: rgb(211, 143, 237);
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* postblog table */
+.postblog-table .input {
+    border: 1px solid #ccc;
+    height: 26px;
+    padding-left: 4px;
+}
+
+.postblog-table .button {
+    background-color: #809fce;
+    border: 1px solid #080808;
+    color: #000000;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.postblog-table .td-btn {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.postblog-table th,
+.postblog-table td {
+    padding-bottom: 10px;
+}
+
+.postblog-table .select {
+    border: 1px solid #cccccc;
+    min-width: 80px;
+    height: 28px;
+}
+
+ul {
+    padding: 10px;
+}
+
+.jpg {
+    position: absolute;
+    top: 745px;
+    left: 20px;
+}
+
+.jpg img {
+    width: 220px;
+    height: 280px;
+    margin-right: 21px;
+}
+
+.pp {
+    width: 180px;
+    height: 220px;
+    right: 23px;
+    position: absolute;
+    top: 0px;
+    left: 795px;
+}
+
+.box {
+    width: 700px;
+    background: rgba(167, 163, 168, 0.4);
+    padding: 60px;
+    margin: 400px auto;
+}
+
+.box h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
